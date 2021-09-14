@@ -1,13 +1,6 @@
 ﻿
-h1 {
-    color: black;
+.tittle {
+    color: Blue;
     text-align: center;
     
-}
-p{
-color: navy;
-text-indent: 30px;
-}
-br{
-    text-indent: 30px
 }
