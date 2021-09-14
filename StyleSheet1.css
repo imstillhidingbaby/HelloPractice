@@ -1,5 +1,13 @@
 ﻿
 h1 {
-    color: blue;
+    color: black;
     text-align: center;
+    
+}
+p{
+color: navy;
+text-indent: 30px;
+}
+br{
+    text-indent: 30px
 }
