@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Area</title>
+    <meta charset="utf=8"/>
+    <link rel="stylesheet" href="#" />
+    <script src="#"></script>
+ <style>
+     h1{
+         text-align: center;
+         color: black;
+     }
+
+     .Division {
+
+        margin: auto;
+        width: 30%;
+        border: 3px solid black;
+        background-color: rgb(111, 163, 180);
+        padding: 10px;  
+     }
+
+     .registerbtn {
+        background-color:lightblue;
+        color: black;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+}
+
+ </style>
+</head>
+<body>
+<div class="Division">
+<h1>Student Registration Form</h1>
+<form>
+        <label for = "name">Full Name</label> <br>
+        <input type="text" placeholder="Full Name" name="" size="63" > <br>
+        <label for = "middlename">Middle Name</label> <br>
+        <input type="text" placeholder="Middle Name" middlename="" size="63"> <br>
+        <label for = "lastname">Last Name</label> <br>
+        <input type="text" placeholder="Last Name" lastname="" size="63"> <br>
+        <br>
+
+        <label for = "Course">Course</label>
+        <select name="Course" id="Birthday_Day">
+            <option value="-1">Course:</option>
+            <option value="1">BS Computer Science</option>
+            <option value="2">BS Information Technology</option>
+            <option value="3">BS Information System</option> <br>
+        </select>
+        <br>
+        <br>
+        <label for = "Gender">Gender:</label><br>
+        <input type="radio" name="Gender" value="Male" />Male
+        <input type="radio" name="Gender" value="Female" />Female
+        <input type="radio" name="Gender" value="Other" /> Other
+        <br>
+        <br>
+        <label for = "number">Phone Number</label><br>
+        <input type="text" placeholder="+639" number=""  size="63"/>
+        <br>
+        <br>
+        <label for = "Address">Current Address</label><br>
+        <textarea name="Address" rows="4" cols="59" ></textarea>
+        <br>
+        <br>
+        <label for = "email">Email</label> <br>
+        <input type="email" placeholder="Email Address" email="" size="63" > <br>
+        <label for = "password">Password</label> <br>
+        <input type="password" placeholder="Password" password="" size="63"> <br>
+        <label for = "retypepassword">Re-Type Password</label> <br>
+        <input type="password" placeholder="Re-type your password" retypepassword="" size="63"> <br>
+        <br>
+        <button type="submit" class="registerbtn">Register</button>
+</form>
+</div>
+
+</body>
+</html>
