@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+  }
+ .grid-item {
+    background-color:red;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.grid-line{
+    display: grid;    
+}
+.grid-line-item{
+    background-color:blue;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+
+  }
+ .grid-item2 {
+    background-color: yellow;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
